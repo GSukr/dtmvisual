@@ -79,7 +79,7 @@ VisualizeTopics.visualize_topics(df)
 With our dataset we got the following words evolution:
 ![topics](https://github.com/GSukr/dtmvisual/blob/master/results/topic_distribution.png)
 
-Please note that we smoothed the lines with moving average for topic distribution and added the topic titles based on the expert knowledge after analysis of the top words for each topic. If you run the code your topics titles will correspond to the topic ID (e.g. Topic 1). You can adjust your Dataframe before running 'VisualizeTopics.visualize_topics(Dataframe)' to change the topic names and apply moving averdage.
+Please note that we smoothed the lines with moving average for topic distribution and added the topic titles based on the expert knowledge after analysis of the top words for each topic. If you run the code your topics titles will correspond to the topic ID (e.g. Topic 1). You can adjust your Dataframe before running 'VisualizeTopics.visualize_topics(Dataframe)' to change the topic names and apply moving averdage. 
 
 Moreover, you save and then download your DTM model using:
 ```
@@ -90,3 +90,4 @@ To print the words for a timeslice for a topic use:
 ```
 print_all_topics(model, topicid = None, time = None, num_words=10)
 ```
+The results with the SIOE data has been presented at the SIOE 2019 conference: [abstract](https://papers.sioe.org/paper/2466.html)
