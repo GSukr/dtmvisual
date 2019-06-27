@@ -23,6 +23,7 @@ def DF(timespans, num_topics, model, num_words = 10):
     return pd.DataFrame(list(zip(topicId, period, weight, word)), columns = ['topicId', 'period', 'word', 'weight',])
 
 def partitioning(df):
+    
     """
     :param df: Dataframe with corresponding weight for each top word in each topic of each period
     :return: partition based on TopicID
