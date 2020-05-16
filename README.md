@@ -4,7 +4,6 @@ Package for Dynamic Topic Modeling training and visualization
 ### Requirements
 Currently, this package requires Python 3.4+ and the following dependencies:
 
-* 'pprint'
 * 'gensim==3.4.0',
 * 'seaborn==0.8.1', 
 * 'matplotlib==2.0.2'
