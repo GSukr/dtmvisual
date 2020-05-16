@@ -9,7 +9,7 @@ Currently, this package requires Python 3.4+ and the following dependencies:
 * 'seaborn==0.8.1', 
 * 'matplotlib==2.0.2'
 
-We highly recommend you to clean and preprocess the collection before using it. We run the Dynamic topic modelling on the collection of abstracts from the [SIOE conference](https://www.sioe.org/conference/2019) from 1998 to 2018. We have 3225 documents. We use the following code for preprocessing developed by Bruno Chaves: [code](https://github.com/chaves/sioeTopics/blob/master/GetCleanCorpus.ipynb). 
+We highly recommend you to clean and preprocess the collection before using it. We run the Dynamic topic modelling on the collection of abstracts from the [SIOE conference](https://www.sioe.org/conference/2019) from 1998 to 2018. We have 3225 documents. We use the following code for preprocessing [code](https://github.com/chaves/sioeTopics/blob/master/GetCleanCorpus.ipynb). 
 
 ### The following steps help install and use dtmvisual:
 
